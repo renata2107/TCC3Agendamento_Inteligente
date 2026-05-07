@@ -5,6 +5,12 @@
  verifica automaticamente a disponiblidade e evita conflitos de horários. 
 
 
- 📊 Diagramas 
+ 📊 Diagramas
+ 
+🧩 [Diagrama de Classes]
+👉 Acessar Diagrama de Classes
+
+👥 [Diagrama de Casos de Uso]
+👉 Acessar Diagrama de Casos de Uso
 
  
