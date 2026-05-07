@@ -13,4 +13,7 @@
 👥 [Diagrama de Casos de Uso]
 👉 [Acessar Diagrama de Casos de Uso](https://drive.google.com/file/d/1HAXpT5ApbPNXPkXdL3joeLdltECgX1NT/view?usp=sharing)
 
+ 🗄️ Banco de Dados
+👉 [Banco SQL](agendamento_inteligente_db.sql)
+
  
