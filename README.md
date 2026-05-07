@@ -8,9 +8,9 @@
  📊 Diagramas
  
 🧩 [Diagrama de Classes]
-👉 Acessar Diagrama de Classes (https://drive.google.com/file/d/1N-wAKLUwpW0BOi2ZWZPzWgrS9B_AYrI3/view?usp=sharing)
+👉 [Acessar Diagrama de Classes](https://drive.google.com/file/d/1N-wAKLUwpW0BOi2ZWZPzWgrS9B_AYrI3/view?usp=sharing)
 
 👥 [Diagrama de Casos de Uso]
-👉 Acessar Diagrama de Casos de Uso (https://drive.google.com/file/d/1HAXpT5ApbPNXPkXdL3joeLdltECgX1NT/view?usp=sharing)
+👉 [Acessar Diagrama de Casos de Uso](https://drive.google.com/file/d/1HAXpT5ApbPNXPkXdL3joeLdltECgX1NT/view?usp=sharing)
 
  
