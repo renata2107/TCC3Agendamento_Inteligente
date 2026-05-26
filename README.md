@@ -16,7 +16,5 @@
  🗄️ Banco de Dados
 👉 [Banco SQL](agendamento_inteligente_db.sql)
 
- 🎨 Protótipo no Figma
-
-👉🔗 [Acessar Protótipo do Figma](https://www.figma.com/design/G1ntXVG5nluJhOp3mlHVjk/TCC---Prot%C3%B3tipo--Sistema-Web-de-Agendamento-Inteligente?node-id=10-3&m=dev)
+ 🎨 Protótipo no Figma  👉🔗 [Acessar Protótipo do Figma](https://www.figma.com/design/G1ntXVG5nluJhOp3mlHVjk/TCC---Prot%C3%B3tipo--Sistema-Web-de-Agendamento-Inteligente?node-id=10-3&m=dev)
  
