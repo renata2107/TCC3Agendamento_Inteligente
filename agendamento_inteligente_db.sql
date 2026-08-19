@@ -228,15 +228,24 @@ CREATE TRIGGER trg_agendamento_ts
 
 -- ==============================================================
 -- DADOS DE EXEMPLO (opcional — remova em produção)
+--
+-- ATENÇÃO (segurança): nunca versione senhas neste script.
+-- O administrador inicial deve ser criado manualmente, com uma
+-- senha forte informada em tempo de execução, por exemplo:
+--
+--   psql -v senha_admin="$SENHA_ADMIN" \
+--        -v email_admin="$EMAIL_ADMIN" \
+--        -f criar_admin.sql agendamento_inteligente_db
+--
+-- onde criar_admin.sql contém:
+--
+--   INSERT INTO usuario (nome, email, senha_hash, perfil)
+--   VALUES ('Admin Sistema', :'email_admin',
+--           crypt(:'senha_admin', gen_salt('bf', 12)), 'admin');
+--
+--   INSERT INTO administrador (id_usuario, nivel_acesso)
+--   SELECT id, 'super' FROM usuario WHERE email = :'email_admin';
 -- ==============================================================
-
--- Usuário administrador
-INSERT INTO usuario (nome, email, senha_hash, perfil)
-VALUES ('Admin Sistema', 'admin@agendamento.com',
-        crypt('Admin@2025', gen_salt('bf')), 'admin');
-
-INSERT INTO administrador (id_usuario, nivel_acesso)
-SELECT id, 'super' FROM usuario WHERE email = 'admin@agendamento.com';
 
 -- Serviços de exemplo
 INSERT INTO servico (nome, descricao, duracao_min, valor)
